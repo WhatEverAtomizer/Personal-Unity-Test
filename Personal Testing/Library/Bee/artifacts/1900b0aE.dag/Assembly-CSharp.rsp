@@ -361,6 +361,7 @@
 "Assets/Gun/CameraController.cs"
 "Assets/Gun/GunController.cs"
 "Assets/Gun/TargetScript.cs"
+"Assets/Plane_Heli/PlaneCameraController.cs"
 "Assets/Plane_Heli/PlaneController.cs"
 -langversion:9.0
 

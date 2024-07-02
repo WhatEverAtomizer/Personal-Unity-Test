@@ -2,27 +2,53 @@ using UnityEngine;
 
 public class PlaneController : MonoBehaviour
 {
-    public float moveSpeed = 10f; // Speed of the plane
-    public float tiltSpeed = 50f; // Speed of the tilt
+    [Header("Plane Stats")]
+    [Tooltip("How much the throttle ramps up or down.")]
+    public float throttleIncrement = 0.1f;
+    [Tooltip("Maximun engine thrust when at 100% throttle.")]
+    public float maxThrust = 200f;
+    [Tooltip("How responsive the plane is when rolling, pitching, and yawing")]
+    public float responsiveness = 10f;
 
-    void Update()
+    private float throttle;
+    private float roll;
+    private float pitch;
+    private float yaw;
+
+    private float responseModifier
     {
-        // Handle movement with WASD keys
-        float moveHorizontal = Input.GetAxis("Horizontal"); // A, D
-        float moveVertical = Input.GetAxis("Vertical"); // W, S
-
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        transform.Translate(movement * moveSpeed * Time.deltaTime, Space.World);
-
-        // Handle tilt with 8 and 5 keys on the numpad
-        if (Input.GetKey(KeyCode.Keypad8))
+        get
         {
-            transform.Rotate(Vector3.right * tiltSpeed * Time.deltaTime);
+            return (rb.mass / 10f) * responsiveness;
         }
+    }
+    Rigidbody rb;
 
-        if (Input.GetKey(KeyCode.Keypad5))
-        {
-            transform.Rotate(-Vector3.right * tiltSpeed * Time.deltaTime);
-        }
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    private void HandleInput()
+    {
+        roll = Input.GetAxis("Roll");
+        pitch = Input.GetAxis("Pitch");
+        yaw = Input.GetAxis("Yaw");
+
+        if (Input.GetKey(KeyCode.W)) throttle += throttleIncrement;
+        else if (Input.GetKey(KeyCode.S)) throttle -= throttleIncrement;
+        throttle = Mathf.Clamp(throttle, 0f, 100f);
+    }
+    private void Update()
+    {
+        HandleInput();
+    }
+    private void FixedUpdate()
+    {
+        rb.AddForce(-transform.right * maxThrust * throttle);
+        rb.AddTorque(transform.up * roll * responseModifier);
+        rb.AddTorque(transform.right * yaw * responseModifier);
+        rb.AddTorque(-transform.forward * pitch * responseModifier);
     }
 }
