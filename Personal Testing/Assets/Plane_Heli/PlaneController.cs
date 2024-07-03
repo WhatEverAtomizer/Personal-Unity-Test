@@ -9,11 +9,13 @@ public class PlaneController : MonoBehaviour
     public float maxThrust = 200f;
     [Tooltip("How responsive the plane is when rolling, pitching, and yawing")]
     public float responsiveness = 10f;
-
-    private float throttle;
-    private float roll;
-    private float pitch;
-    private float yaw;
+    public float pitchResponsiveness = 10f;
+    [Space(20)]
+    [Header("Info")]
+    [SerializeField] private float throttle;
+    [SerializeField] private float roll;
+    [SerializeField] private float pitch;
+    [SerializeField] private float yaw;
 
     private float responseModifier
     {
@@ -36,9 +38,9 @@ public class PlaneController : MonoBehaviour
         pitch = Input.GetAxis("Pitch");
         yaw = Input.GetAxis("Yaw");
 
-        if (Input.GetKey(KeyCode.W)) throttle += throttleIncrement;
-        else if (Input.GetKey(KeyCode.S)) throttle -= throttleIncrement;
-        throttle = Mathf.Clamp(throttle, 0f, 100f);
+        if (Input.GetKey(KeyCode.Space)) throttle += throttleIncrement;
+        else if (Input.GetKey(KeyCode.LeftControl)) throttle -= throttleIncrement;
+        throttle = Mathf.Clamp(throttle, 0f, maxThrust);
     }
     private void Update()
     {
@@ -46,9 +48,9 @@ public class PlaneController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.AddForce(-transform.right * maxThrust * throttle);
-        rb.AddTorque(transform.up * roll * responseModifier);
-        rb.AddTorque(transform.right * yaw * responseModifier);
-        rb.AddTorque(-transform.forward * pitch * responseModifier);
+        rb.AddForce(transform.forward * maxThrust * throttle);
+        rb.AddTorque(transform.up * yaw * responseModifier);
+        rb.AddTorque(transform.right * pitch * pitchResponsiveness);
+        rb.AddTorque(-transform.forward * roll * responseModifier);
     }
 }
