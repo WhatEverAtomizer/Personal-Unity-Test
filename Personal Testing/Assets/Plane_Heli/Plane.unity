@@ -690,8 +690,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.867817, y: 0.9294281, z: 0.66083765}
-  m_Center: {x: 0.45939136, y: 0.5675609, z: 0.022318602}
+  m_Size: {x: 24.613138, y: 3.0754948, z: 20.965939}
+  m_Center: {x: -0.0633688, y: 2.0257845, z: -0.5004406}
 --- !u!4 &2080314321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4d90564e0f52eb9499814cc21afca5f4, type: 3}
@@ -713,3 +713,7 @@ MonoBehaviour:
   maxThrust: 200
   responsiveness: 20
   pitchResponsiveness: 20
+  throttle: 0
+  roll: 0
+  pitch: 0
+  yaw: 0
