@@ -12,6 +12,7 @@ public class PlaneController : MonoBehaviour
     public float rollResponsiveness = 10f;
     public float pitchResponsiveness = 10f;
     public float yawResponsiveness = 10f;
+    [SerializeField] private Rotator proppelerRotation;
     [Space(20)]
     [Header("Info")]
     [SerializeField] private float throttle;
@@ -22,13 +23,12 @@ public class PlaneController : MonoBehaviour
     private bool throttleUp;
     private bool throttleDown;
     private Controls controls;
-    private Rotator proppelerRotation;
     Rigidbody rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        proppelerRotation = FindAnyObjectByType<Rotator>();
+        //proppelerRotation = FindAnyObjectByType<Rotator>();
         controls = new Controls();
 
         controls.PlaneControls.Roll.performed += ctx => roll = ctx.ReadValue<float>();
