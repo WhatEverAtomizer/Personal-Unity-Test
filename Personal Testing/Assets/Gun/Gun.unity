@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 67dbcad308fdb2c42910f3e15b5e7f91, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -823,7 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a783d8cebc4164ab02da6d81594833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100000000
+  health: 50
 --- !u!1 &1912113802
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,10 +936,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 963194228}
     m_Modifications:
-    - target: {fileID: 919132149155446097, guid: d368832ebcfc0fb47a92e5db16ea0671, type: 3}
-      propertyPath: m_Name
-      value: uziLongSilencer
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d368832ebcfc0fb47a92e5db16ea0671, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -994,6 +990,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d368832ebcfc0fb47a92e5db16ea0671, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d368832ebcfc0fb47a92e5db16ea0671, type: 3}
+      propertyPath: m_Name
+      value: uziLongSilencer
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d368832ebcfc0fb47a92e5db16ea0671, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
