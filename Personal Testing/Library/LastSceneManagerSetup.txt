@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Train/Train.unity
+- path: Assets/Gun/Gun.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
