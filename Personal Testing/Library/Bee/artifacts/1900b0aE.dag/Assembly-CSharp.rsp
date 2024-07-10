@@ -368,6 +368,7 @@
 "Assets/Boat/Floater.cs"
 "Assets/Boat/WaterManager.cs"
 "Assets/Boat/WaveManager.cs"
+"Assets/CollisionTestForPlane.cs"
 "Assets/Controls.cs"
 "Assets/Gun/CameraController.cs"
 "Assets/Gun/GunController.cs"
