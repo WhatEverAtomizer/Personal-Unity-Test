@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 330954967}
   - component: {fileID: 330954966}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: TrainCam
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330954964}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -198,14 +198,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330954964}
-  m_LocalRotation: {x: 0.18832375, y: 0.911681, z: 0.08189187, w: 0.3559014}
-  m_LocalPosition: {x: -113.73415, y: -0.9204283, z: 105.102516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3, y: 6.471528, z: -18.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.044, y: 3.487, z: -0.721}
+  m_Father: {fileID: 1508743555}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &418086491
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +235,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547652944
 GameObject:
@@ -267,7 +267,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &547652946
 BoxCollider:
@@ -300,7 +300,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1186010643, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1756464774094550, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_Name
@@ -308,35 +308,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -117.08
+      value: -116
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.04
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.31
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.27154487
+      value: 0.9885434
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.016836662
+      value: -0.000000005264615
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.96197
+      value: -0.15093718
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.02436705
+      value: -0.0000000057891008
       objectReference: {fileID: 0}
     - target: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -356,7 +356,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330954967}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1756464774094550, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
       insertIndex: -1
@@ -466,7 +469,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &753043314
 GameObject:
@@ -484,7 +487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &753043315
 Light:
   m_ObjectHideFlags: 0
@@ -560,7 +563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &790592458
 GameObject:
@@ -579,7 +582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &790592459
 Transform:
   m_ObjectHideFlags: 0
@@ -684,7 +687,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1088188861
 MonoBehaviour:
@@ -1717,15 +1720,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1956119296}
   m_PlayOnAwake: 1
-  m_LoopMode: 1
+  m_LoopMode: 2
   m_Method: 1
-  m_Duration: 38.777878
+  m_Duration: 35.69637
   m_MaxSpeed: 55
   m_EasingMode: 1
   m_AlignmentMode: 1
   m_ObjectForwardAxis: 2
   m_ObjectUpAxis: 1
   m_StartOffset: 0
+--- !u!4 &1508743555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4082935477391056, guid: 6e35b9c040b5a1248ab789b5a16c9af8, type: 3}
+  m_PrefabInstance: {fileID: 654973255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1956119295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,734 +1780,491 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: -167.11916
-        y: 10.36
-        z: 7.4332294
+        x: -36.796112
+        y: -0.000034332275
+        z: -1.0476131
       TangentIn:
         x: -0
         y: -0
-        z: -5.396602
+        z: -42.4704
       TangentOut:
         x: 0
         y: 0
-        z: 6.7121267
+        z: 48.71795
       Rotation:
         value:
-          x: 0.016836679
-          y: 0.96197
-          z: -0.024367081
-          w: 0.2715446
+          x: -0.000000005264611
+          y: -0.15093715
+          z: -0.0000000057891003
+          w: 0.98854333
     - Position:
-        x: -145.43915
-        y: 8.2
-        z: -5.6767693
+        x: -5.3042297
+        y: -0.000030517578
+        z: 173.19287
       TangentIn:
         x: -0
         y: -0
-        z: -2.340597
+        z: -33.633743
       TangentOut:
         x: 0
         y: 0
-        z: 2.1967964
+        z: 38.470047
       Rotation:
         value:
-          x: 0.12689212
-          y: 0.38680705
-          z: 0.32974175
-          w: 0.85179174
+          x: 0.000000001736828
+          y: 0.55894816
+          z: 0.000000001227231
+          w: 0.8292026
     - Position:
-        x: -155.04916
-        y: 10.599999
-        z: 14.413231
+        x: 182.841
+        y: -0.000035881418
+        z: 38.059364
       TangentIn:
         x: -0
         y: -0
-        z: -4.724782
+        z: -71.4593
       TangentOut:
         x: 0
         y: 0
-        z: 10.323009
+        z: 62.474495
       Rotation:
         value:
-          x: -0.0037426248
-          y: 0.3153502
-          z: -0.018386275
-          w: 0.9487899
+          x: 0.00000008734769
+          y: 0.9168441
+          z: 0.000000034076283
+          w: 0.39924532
     - Position:
-        x: -50.139153
-        y: -1.3000011
-        z: -2.4767704
+        x: 296.2039
+        y: -0.000034332275
+        z: -97.94762
       TangentIn:
         x: -0
         y: -0
-        z: -37.53555
+        z: -21.944435
       TangentOut:
         x: 0
         y: 0
-        z: 44.246952
+        z: 14.302881
       Rotation:
         value:
-          x: 0.13795258
-          y: 0.6901081
-          z: 0.17202055
-          w: 0.6892958
+          x: 0.000000006006547
+          y: 0.98149407
+          z: 0.0000000035582524
+          w: -0.19149256
     - Position:
-        x: 92.960846
-        y: 28.9
-        z: 23.723228
+        x: 221.40388
+        y: -0.000034332275
+        z: -105.84762
       TangentIn:
         x: -0
         y: -0
-        z: -35.719803
+        z: -29.77382
       TangentOut:
         x: 0
         y: 0
-        z: 26.489187
+        z: 43.88154
       Rotation:
         value:
-          x: 0.002725722
-          y: 0.4435603
-          z: -0.10523284
-          w: 0.890041
+          x: -0.000000010853632
+          y: 0.71526724
+          z: 0.000000010604536
+          w: -0.69885105
     - Position:
-        x: 123.460785
-        y: -1.300005
-        z: 93.253006
+        x: 58.303886
+        y: -0.000034332275
+        z: -96.24761
       TangentIn:
         x: -0
         y: -0
-        z: -28.72136
+        z: -48.43334
       TangentOut:
         x: 0
         y: 0
-        z: 42.038097
+        z: 43.954548
       Rotation:
         value:
-          x: 0.101298146
-          y: -0.038290966
-          z: 0.103348956
-          w: 0.98873234
-    - Position:
-        x: 41.10083
-        y: -1.300005
-        z: 247.71512
-      TangentIn:
-        x: -0
-        y: -0
-        z: -51.98128
-      TangentOut:
-        x: 0
-        y: 0
-        z: 66.31389
-      Rotation:
-        value:
-          x: 0.005812534
-          y: -0.5405761
-          z: -0.009045286
-          w: 0.84122634
-    - Position:
-        x: -236.6691
-        y: -1.2999973
-        z: 184.43791
-      TangentIn:
-        x: -0
-        y: -0
-        z: -53.53088
-      TangentOut:
-        x: 0
-        y: 0
-        z: 41.949444
-      Rotation:
-        value:
-          x: -0.0148072
-          y: 0.9716498
-          z: 0.03084537
-          w: -0.23393564
-    - Position:
-        x: -168.33916
-        y: 10.599999
-        z: 23.82323
-      TangentIn:
-        x: -0
-        y: -0
-        z: -26.973194
-      TangentOut:
-        x: 0
-        y: 0
-        z: 8.267751
-      Rotation:
-        value:
-          x: 0.044579156
-          y: 0.9918318
-          z: 0.018962542
-          w: 0.117995024
+          x: 4.458649e-10
+          y: -0.5431795
+          z: -6.8919576e-10
+          w: 0.83961666
     m_MetaData:
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 0.7282431
+      - Distance: 5.2383866
         T: 0.03448276
-      - Distance: 1.5235426
+      - Distance: 10.861873
         T: 0.06896552
-      - Distance: 2.382567
+      - Distance: 16.845177
         T: 0.10344828
-      - Distance: 3.3007994
+      - Distance: 23.15893
         T: 0.13793103
-      - Distance: 4.272852
+      - Distance: 29.770933
         T: 0.1724138
-      - Distance: 5.292758
+      - Distance: 36.647
         T: 0.20689656
-      - Distance: 6.3541727
+      - Distance: 43.75152
         T: 0.2413793
-      - Distance: 7.450509
+      - Distance: 51.047905
         T: 0.27586207
-      - Distance: 8.574919
+      - Distance: 58.49882
         T: 0.31034482
-      - Distance: 9.720432
+      - Distance: 66.066444
         T: 0.3448276
-      - Distance: 10.879993
+      - Distance: 73.712616
         T: 0.37931034
-      - Distance: 12.046442
+      - Distance: 81.399025
         T: 0.41379312
-      - Distance: 13.212557
+      - Distance: 89.08727
         T: 0.44827586
-      - Distance: 14.371088
+      - Distance: 96.739044
         T: 0.4827586
-      - Distance: 15.514731
+      - Distance: 104.316246
         T: 0.51724136
-      - Distance: 16.63618
+      - Distance: 111.781075
         T: 0.55172414
-      - Distance: 17.72817
+      - Distance: 119.09626
         T: 0.5862069
-      - Distance: 18.78339
+      - Distance: 126.22518
         T: 0.62068963
-      - Distance: 19.794563
+      - Distance: 133.13225
         T: 0.6551724
-      - Distance: 20.754494
+      - Distance: 139.78311
         T: 0.6896552
-      - Distance: 21.656067
+      - Distance: 146.14522
         T: 0.7241379
-      - Distance: 22.492298
+      - Distance: 152.18857
         T: 0.7586207
-      - Distance: 23.256445
+      - Distance: 157.88649
         T: 0.79310346
-      - Distance: 23.942043
+      - Distance: 163.21735
         T: 0.82758623
-      - Distance: 24.54339
+      - Distance: 168.16653
         T: 0.86206895
-      - Distance: 25.055857
+      - Distance: 172.73006
         T: 0.8965517
-      - Distance: 25.47727
+      - Distance: 176.91942
         T: 0.9310345
-      - Distance: 25.810932
+      - Distance: 180.76912
         T: 0.9655172
-      - Distance: 26.073658
+      - Distance: 184.34616
         T: 1
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 0.2296596
+      - Distance: 4.06302
         T: 0.03448276
-      - Distance: 0.5195438
+      - Distance: 8.420946
         T: 0.06896552
-      - Distance: 0.90337193
+      - Distance: 13.192714
         T: 0.10344828
-      - Distance: 1.3880329
+      - Distance: 18.445591
         T: 0.13793103
-      - Distance: 1.9708376
+      - Distance: 24.209686
         T: 0.1724138
-      - Distance: 2.6454585
+      - Distance: 30.490255
         T: 0.20689656
-      - Distance: 3.403976
+      - Distance: 37.276176
         T: 0.2413793
-      - Distance: 4.2377033
+      - Distance: 44.54556
         T: 0.27586207
-      - Distance: 5.137561
+      - Distance: 52.26913
         T: 0.31034482
-      - Distance: 6.0941978
+      - Distance: 60.41268
         T: 0.3448276
-      - Distance: 7.098161
+      - Distance: 68.93839
         T: 0.37931034
-      - Distance: 8.139905
+      - Distance: 77.80593
         T: 0.41379312
-      - Distance: 9.2098675
+      - Distance: 86.973015
         T: 0.44827586
-      - Distance: 10.298491
+      - Distance: 96.396065
         T: 0.4827586
-      - Distance: 11.3962555
+      - Distance: 106.03032
         T: 0.51724136
-      - Distance: 12.493648
+      - Distance: 115.830246
         T: 0.55172414
-      - Distance: 13.581312
+      - Distance: 125.74966
         T: 0.5862069
-      - Distance: 14.649979
+      - Distance: 135.74184
         T: 0.62068963
-      - Distance: 15.690584
+      - Distance: 145.75969
         T: 0.6551724
-      - Distance: 16.694305
+      - Distance: 155.75575
         T: 0.6896552
-      - Distance: 17.652693
+      - Distance: 165.68231
         T: 0.7241379
-      - Distance: 18.557846
+      - Distance: 175.49147
         T: 0.7586207
-      - Distance: 19.402641
+      - Distance: 185.13518
         T: 0.79310346
-      - Distance: 20.1812
+      - Distance: 194.56516
         T: 0.82758623
-      - Distance: 20.889572
+      - Distance: 203.7331
         T: 0.86206895
-      - Distance: 21.527014
+      - Distance: 212.59068
         T: 0.8965517
-      - Distance: 22.09804
+      - Distance: 221.0895
         T: 0.9310345
-      - Distance: 22.615671
+      - Distance: 229.18112
         T: 0.9655172
-      - Distance: 23.10504
+      - Distance: 236.81728
         T: 1
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 1.1132324
+      - Distance: 6.6100726
         T: 0.03448276
-      - Distance: 2.4305153
+      - Distance: 13.491561
         T: 0.06896552
-      - Distance: 4.034596
+      - Distance: 20.609991
         T: 0.10344828
-      - Distance: 5.9554243
+      - Distance: 27.93087
         T: 0.13793103
-      - Distance: 8.197126
+      - Distance: 35.41981
         T: 0.1724138
-      - Distance: 10.751339
+      - Distance: 43.042473
         T: 0.20689656
-      - Distance: 13.6035
+      - Distance: 50.764507
         T: 0.2413793
-      - Distance: 16.735428
+      - Distance: 58.551678
         T: 0.27586207
-      - Distance: 20.127039
+      - Distance: 66.36979
         T: 0.31034482
-      - Distance: 23.756927
+      - Distance: 74.184784
         T: 0.3448276
-      - Distance: 27.603016
+      - Distance: 81.96262
         T: 0.37931034
-      - Distance: 31.642712
+      - Distance: 89.669495
         T: 0.41379312
-      - Distance: 35.85308
+      - Distance: 97.271675
         T: 0.44827586
-      - Distance: 40.21113
+      - Distance: 104.73565
         T: 0.4827586
-      - Distance: 44.693726
+      - Distance: 112.02818
         T: 0.51724136
-      - Distance: 49.27779
+      - Distance: 119.11631
         T: 0.55172414
-      - Distance: 53.940323
+      - Distance: 125.967445
         T: 0.5862069
-      - Distance: 58.658447
+      - Distance: 132.54958
         T: 0.62068963
-      - Distance: 63.40953
+      - Distance: 138.83139
         T: 0.6551724
-      - Distance: 68.17122
+      - Distance: 144.78244
         T: 0.6896552
-      - Distance: 72.92152
+      - Distance: 150.37363
         T: 0.7241379
-      - Distance: 77.638954
+      - Distance: 155.5777
         T: 0.7586207
-      - Distance: 82.30261
+      - Distance: 160.37016
         T: 0.79310346
-      - Distance: 86.89234
+      - Distance: 164.73062
         T: 0.82758623
-      - Distance: 91.38894
+      - Distance: 168.64522
         T: 0.86206895
-      - Distance: 95.77447
+      - Distance: 172.1109
         T: 0.8965517
-      - Distance: 100.0325
+      - Distance: 175.14278
         T: 0.9310345
-      - Distance: 104.14863
+      - Distance: 177.78734
         T: 0.9655172
-      - Distance: 108.11107
+      - Distance: 180.14285
         T: 1
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 4.6749854
+      - Distance: 1.4685044
         T: 0.03448276
-      - Distance: 9.538967
+      - Distance: 2.9525785
         T: 0.06896552
-      - Distance: 14.579474
+      - Distance: 4.4955306
         T: 0.10344828
-      - Distance: 19.78222
+      - Distance: 6.130151
         T: 0.13793103
-      - Distance: 25.1315
+      - Distance: 7.878812
         T: 0.1724138
-      - Distance: 30.610552
+      - Distance: 9.755256
         T: 0.20689656
-      - Distance: 36.20178
+      - Distance: 11.766434
         T: 0.2413793
-      - Distance: 41.88697
+      - Distance: 13.9144535
         T: 0.27586207
-      - Distance: 47.64744
+      - Distance: 16.197805
         T: 0.31034482
-      - Distance: 53.464188
+      - Distance: 18.612478
         T: 0.3448276
-      - Distance: 59.317966
+      - Distance: 21.152536
         T: 0.37931034
-      - Distance: 65.18944
+      - Distance: 23.810745
         T: 0.41379312
-      - Distance: 71.05922
+      - Distance: 26.578764
         T: 0.44827586
-      - Distance: 76.908005
+      - Distance: 29.447598
         T: 0.4827586
-      - Distance: 82.71666
+      - Distance: 32.407646
         T: 0.51724136
-      - Distance: 88.46629
+      - Distance: 35.448883
         T: 0.55172414
-      - Distance: 94.13839
+      - Distance: 38.56095
         T: 0.5862069
-      - Distance: 99.71494
+      - Distance: 41.733253
         T: 0.62068963
-      - Distance: 105.17863
+      - Distance: 44.95496
         T: 0.6551724
-      - Distance: 110.512955
+      - Distance: 48.215202
         T: 0.6896552
-      - Distance: 115.70253
+      - Distance: 51.502934
         T: 0.7241379
-      - Distance: 120.733406
+      - Distance: 54.807144
         T: 0.7586207
-      - Distance: 125.59341
+      - Distance: 58.11674
         T: 0.79310346
-      - Distance: 130.27267
+      - Distance: 61.420677
         T: 0.82758623
-      - Distance: 134.76436
+      - Distance: 64.70796
         T: 0.86206895
-      - Distance: 139.06546
+      - Distance: 67.96768
         T: 0.8965517
-      - Distance: 143.1779
+      - Distance: 71.18904
         T: 0.9310345
-      - Distance: 147.10994
+      - Distance: 74.36144
         T: 0.9655172
-      - Distance: 150.87776
+      - Distance: 77.474525
         T: 1
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 2.7406034
+      - Distance: 4.648834
         T: 0.03448276
-      - Distance: 5.487179
+      - Distance: 9.506424
         T: 0.06896552
-      - Distance: 8.245474
+      - Distance: 14.557425
         T: 0.10344828
-      - Distance: 11.0199795
+      - Distance: 19.786343
         T: 0.13793103
-      - Distance: 13.814081
+      - Distance: 25.177574
         T: 0.1724138
-      - Distance: 16.630123
+      - Distance: 30.715372
         T: 0.20689656
-      - Distance: 19.469488
+      - Distance: 36.384052
         T: 0.2413793
-      - Distance: 22.33273
+      - Distance: 42.16793
         T: 0.27586207
-      - Distance: 25.219704
+      - Distance: 48.051315
         T: 0.31034482
-      - Distance: 28.12963
+      - Distance: 54.01863
         T: 0.3448276
-      - Distance: 31.06118
+      - Distance: 60.054398
         T: 0.37931034
-      - Distance: 34.01264
+      - Distance: 66.14335
         T: 0.41379312
-      - Distance: 36.981903
+      - Distance: 72.2703
         T: 0.44827586
-      - Distance: 39.96661
+      - Distance: 78.42034
         T: 0.4827586
-      - Distance: 42.96422
+      - Distance: 84.57886
         T: 0.51724136
-      - Distance: 45.972057
+      - Distance: 90.731445
         T: 0.55172414
-      - Distance: 48.987408
+      - Distance: 96.86416
         T: 0.5862069
-      - Distance: 52.00757
+      - Distance: 102.96342
         T: 0.62068963
-      - Distance: 55.029938
+      - Distance: 109.016174
         T: 0.6551724
-      - Distance: 58.052067
+      - Distance: 115.00993
         T: 0.6896552
-      - Distance: 61.07172
+      - Distance: 120.932915
         T: 0.7241379
-      - Distance: 64.08698
+      - Distance: 126.774155
         T: 0.7586207
-      - Distance: 67.09629
+      - Distance: 132.52362
         T: 0.79310346
-      - Distance: 70.098526
+      - Distance: 138.17241
         T: 0.82758623
-      - Distance: 73.093094
+      - Distance: 143.71297
         T: 0.86206895
-      - Distance: 76.08003
+      - Distance: 149.13933
         T: 0.8965517
-      - Distance: 79.06004
+      - Distance: 154.4474
         T: 0.9310345
-      - Distance: 82.03459
+      - Distance: 159.6353
         T: 0.9655172
-      - Distance: 85.006035
+      - Distance: 164.70374
         T: 1
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
       - Distance: 0
         T: 0
-      - Distance: 4.516009
+      - Distance: 4.580476
         T: 0.03448276
-      - Distance: 9.358789
+      - Distance: 9.224207
         T: 0.06896552
-      - Distance: 14.511515
+      - Distance: 13.925264
         T: 0.10344828
-      - Distance: 19.95445
+      - Distance: 18.677658
         T: 0.13793103
-      - Distance: 25.665794
+      - Distance: 23.475342
         T: 0.1724138
-      - Distance: 31.622353
+      - Distance: 28.312252
         T: 0.20689656
-      - Distance: 37.799892
+      - Distance: 33.182335
         T: 0.2413793
-      - Distance: 44.173576
+      - Distance: 38.079548
         T: 0.27586207
-      - Distance: 50.718082
+      - Distance: 42.997906
         T: 0.31034482
-      - Distance: 57.407867
+      - Distance: 47.931488
         T: 0.3448276
-      - Distance: 64.21719
+      - Distance: 52.874477
         T: 0.37931034
-      - Distance: 71.12046
+      - Distance: 57.821167
         T: 0.41379312
-      - Distance: 78.09219
+      - Distance: 62.765995
         T: 0.44827586
-      - Distance: 85.1071
+      - Distance: 67.70357
         T: 0.4827586
-      - Distance: 92.14038
+      - Distance: 72.6287
         T: 0.51724136
-      - Distance: 99.167694
+      - Distance: 77.53642
         T: 0.55172414
-      - Distance: 106.16535
+      - Distance: 82.42204
         T: 0.5862069
-      - Distance: 113.11058
+      - Distance: 87.281136
         T: 0.62068963
-      - Distance: 119.98163
+      - Distance: 92.10966
         T: 0.6551724
-      - Distance: 126.75795
+      - Distance: 96.90392
         T: 0.6896552
-      - Distance: 133.4207
+      - Distance: 101.660675
         T: 0.7241379
-      - Distance: 139.95297
+      - Distance: 106.377174
         T: 0.7586207
-      - Distance: 146.34024
+      - Distance: 111.05119
         T: 0.79310346
-      - Distance: 152.57098
+      - Distance: 115.68114
         T: 0.82758623
-      - Distance: 158.63737
+      - Distance: 120.26607
         T: 0.86206895
-      - Distance: 164.53615
+      - Distance: 124.80585
         T: 0.8965517
-      - Distance: 170.2695
+      - Distance: 129.30113
         T: 0.9310345
-      - Distance: 175.84637
+      - Distance: 133.75351
         T: 0.9655172
-      - Distance: 181.28369
-        T: 1
-    - Mode: 0
-      Tension: 0.5
-      m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
-      - Distance: 7.1879497
-        T: 0.03448276
-      - Distance: 15.050816
-        T: 0.06896552
-      - Distance: 23.582603
-        T: 0.10344828
-      - Distance: 32.756725
-        T: 0.13793103
-      - Distance: 42.53306
-        T: 0.1724138
-      - Distance: 52.862404
-        T: 0.20689656
-      - Distance: 63.689323
-        T: 0.2413793
-      - Distance: 74.954056
-        T: 0.27586207
-      - Distance: 86.59372
-        T: 0.31034482
-      - Distance: 98.54327
-        T: 0.3448276
-      - Distance: 110.736015
-        T: 0.37931034
-      - Distance: 123.104225
-        T: 0.41379312
-      - Distance: 135.57933
-        T: 0.44827586
-      - Distance: 148.09233
-        T: 0.4827586
-      - Distance: 160.57402
-        T: 0.51724136
-      - Distance: 172.95518
-        T: 0.55172414
-      - Distance: 185.1669
-        T: 0.5862069
-      - Distance: 197.14075
-        T: 0.62068963
-      - Distance: 208.8092
-        T: 0.6551724
-      - Distance: 220.10591
-        T: 0.6896552
-      - Distance: 230.96635
-        T: 0.7241379
-      - Distance: 241.32861
-        T: 0.7586207
-      - Distance: 251.13425
-        T: 0.79310346
-      - Distance: 260.33008
-        T: 0.82758623
-      - Distance: 268.87048
-        T: 0.86206895
-      - Distance: 276.72156
-        T: 0.8965517
-      - Distance: 283.86697
-        T: 0.9310345
-      - Distance: 290.31848
-        T: 0.9655172
-      - Distance: 296.13205
-        T: 1
-    - Mode: 0
-      Tension: 0.5
-      m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
-      - Distance: 4.385212
-        T: 0.03448276
-      - Distance: 8.955378
-        T: 0.06896552
-      - Distance: 13.800254
-        T: 0.10344828
-      - Distance: 18.972992
-        T: 0.13793103
-      - Distance: 24.49772
-        T: 0.1724138
-      - Distance: 30.37748
-        T: 0.20689656
-      - Distance: 36.6002
-        T: 0.2413793
-      - Distance: 43.143276
-        T: 0.27586207
-      - Distance: 49.97653
-        T: 0.31034482
-      - Distance: 57.0644
-        T: 0.3448276
-      - Distance: 64.367516
-        T: 0.37931034
-      - Distance: 71.843506
-        T: 0.41379312
-      - Distance: 79.44787
-        T: 0.44827586
-      - Distance: 87.13456
-        T: 0.4827586
-      - Distance: 94.85622
-        T: 0.51724136
-      - Distance: 102.564545
-        T: 0.55172414
-      - Distance: 110.21062
-        T: 0.5862069
-      - Distance: 117.74488
-        T: 0.62068963
-      - Distance: 125.11749
-        T: 0.6551724
-      - Distance: 132.27835
-        T: 0.6896552
-      - Distance: 139.17725
-        T: 0.7241379
-      - Distance: 145.76414
-        T: 0.7586207
-      - Distance: 151.98923
-        T: 0.79310346
-      - Distance: 157.80328
-        T: 0.82758623
-      - Distance: 163.15807
-        T: 0.86206895
-      - Distance: 168.00717
-        T: 0.8965517
-      - Distance: 172.3071
-        T: 0.9310345
-      - Distance: 176.01997
-        T: 0.9655172
-      - Distance: 179.11894
-        T: 1
-    - Mode: 0
-      Tension: 0.5
-      m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
-      - Distance: 0.8362928
-        T: 0.03448276
-      - Distance: 1.6366487
-        T: 0.06896552
-      - Distance: 2.4038846
-        T: 0.10344828
-      - Distance: 3.1406744
-        T: 0.13793103
-      - Distance: 3.8494952
-        T: 0.1724138
-      - Distance: 4.532647
-        T: 0.20689656
-      - Distance: 5.1922383
-        T: 0.2413793
-      - Distance: 5.8301663
-        T: 0.27586207
-      - Distance: 6.4481363
-        T: 0.31034482
-      - Distance: 7.047667
-        T: 0.3448276
-      - Distance: 7.6300926
-        T: 0.37931034
-      - Distance: 8.196605
-        T: 0.41379312
-      - Distance: 8.748261
-        T: 0.44827586
-      - Distance: 9.286037
-        T: 0.4827586
-      - Distance: 9.810858
-        T: 0.51724136
-      - Distance: 10.323653
-        T: 0.55172414
-      - Distance: 10.825414
-        T: 0.5862069
-      - Distance: 11.317242
-        T: 0.62068963
-      - Distance: 11.800434
-        T: 0.6551724
-      - Distance: 12.276532
-        T: 0.6896552
-      - Distance: 12.7473955
-        T: 0.7241379
-      - Distance: 13.215263
-        T: 0.7586207
-      - Distance: 13.682793
-        T: 0.79310346
-      - Distance: 14.15309
-        T: 0.82758623
-      - Distance: 14.629708
-        T: 0.86206895
-      - Distance: 15.116606
-        T: 0.8965517
-      - Distance: 15.618103
-        T: 0.9310345
-      - Distance: 16.13877
-        T: 0.9655172
-      - Distance: 16.683365
+      - Distance: 138.1656
         T: 1
     m_Closed: 1
     m_IntData:
@@ -2520,12 +2285,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956119295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.039154, y: -20.4, z: 23.87677}
+  m_LocalPosition: {x: -79.20389, y: -21.699966, z: 19.547613}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2019576483
 PrefabInstance:
@@ -2537,7 +2302,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
       propertyPath: m_LocalScale.x
