@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Car/PROMETEO - Car Controller/Scenes/Demo.unity
+- path: Assets/Shaders/Shaders.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
