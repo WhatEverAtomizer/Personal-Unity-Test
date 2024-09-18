@@ -1,32 +1,45 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 
 public class GunController : MonoBehaviour
 {
-    // Gun attributes
+    [Header("Gun Attributes")]
     public int maxAmmo = 30;
     private int currentAmmo;
     public float reloadTime = 1f;
     private bool isReloading = false;
+    public bool automatic = false;
+    [Space (20)]
 
-    // Shooting attributes
+    [Header("Shooting Attributes")]
     public float damage = 10f;
     public float range = 100f;
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
+    public GameObject bulletSpawn;
+    [Space(20)]
 
-    // Effects
+    [Header("Animations")]
+    public Animator animator;
+    public string zoomBool;
+    public string trigger;
+    [Space(20)]
+
+    [Header("Effects")]
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
     public float impactForce = 30f;
+    [Space(20)]
 
-    // UI
+    [Header("UI")]
     public Text ammoText;
+    [Space(20)]
 
-    // Audio
+    [Header("Audio")]
     public AudioSource gunAudioSource;
     public AudioClip shootClip;
     public AudioClip reloadClip;
@@ -40,6 +53,7 @@ public class GunController : MonoBehaviour
     void OnEnable()
     {
         isReloading = false;
+        //animator.SetBool(zoomBool, false);
     }
 
     void Update()
@@ -53,9 +67,14 @@ public class GunController : MonoBehaviour
             return;
         }
 
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
+        if (automatic == true && Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
+            Shoot();
+        }
+
+        if (automatic == false && Input.GetButtonDown("Fire1"))
+        {
             Shoot();
         }
 
@@ -63,6 +82,17 @@ public class GunController : MonoBehaviour
         {
             StartCoroutine(Reload());
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            animator.SetTrigger(zoomBool);
+        }
+        else if (Input.GetMouseButtonUp(1))
+        {
+            animator.SetTrigger(trigger);
+            //animator.SetBool(zoomBool, false);
+        }
+
     }
 
     IEnumerator Reload()
