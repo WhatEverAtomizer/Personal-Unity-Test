@@ -1,8 +1,6 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
 
 public class GunController : MonoBehaviour
 {
@@ -12,33 +10,35 @@ public class GunController : MonoBehaviour
     public float reloadTime = 1f;
     private bool isReloading = false;
     public bool automatic = false;
-    [Space (20)]
 
+    [Space(20)]
     [Header("Shooting Attributes")]
     public float damage = 10f;
     public float range = 100f;
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
     public GameObject bulletSpawn;
-    [Space(20)]
+    public GameObject projectilePrefab; // Projectile prefab to fire
+    public float projectileSpeed = 20f; // Speed of the projectile
 
+    [Space(20)]
     [Header("Animations")]
     public Animator animator;
     public string zoomBool;
     public string trigger;
-    [Space(20)]
 
+    [Space(20)]
     [Header("Effects")]
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
     public float impactForce = 30f;
-    [Space(20)]
 
+    [Space(20)]
     [Header("UI")]
     public Text ammoText;
-    [Space(20)]
 
+    [Space(20)]
     [Header("Audio")]
     public AudioSource gunAudioSource;
     public AudioClip shootClip;
@@ -53,7 +53,6 @@ public class GunController : MonoBehaviour
     void OnEnable()
     {
         isReloading = false;
-        //animator.SetBool(zoomBool, false);
     }
 
     void Update()
@@ -90,9 +89,7 @@ public class GunController : MonoBehaviour
         else if (Input.GetMouseButtonUp(1))
         {
             animator.SetTrigger(trigger);
-            //animator.SetBool(zoomBool, false);
         }
-
     }
 
     IEnumerator Reload()
@@ -108,29 +105,19 @@ public class GunController : MonoBehaviour
 
     void Shoot()
     {
-        //muzzleFlash.Play();
-        //gunAudioSource.PlayOneShot(shootClip);
+        if (currentAmmo <= 0)
+            return;
+
         currentAmmo--;
         UpdateAmmoText();
 
-        RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
-        {
-            Debug.Log(hit.transform.name);
-            Target target = hit.transform.GetComponent<Target>();
-            if (target != null)
-            {
-                target.TakeDamage(damage);
-            }
+        //muzzleFlash.Play();
+        //gunAudioSource.PlayOneShot(shootClip);
 
-            if (hit.rigidbody != null)
-            {
-                hit.rigidbody.AddForce(-hit.normal * impactForce);
-            }
-
-            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 2f);
-        }
+        // Spawn and shoot the projectile
+        GameObject projectile = Instantiate(projectilePrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
+        Rigidbody rb = projectile.GetComponent<Rigidbody>();
+        rb.velocity = bulletSpawn.transform.forward * projectileSpeed;
     }
 
     void UpdateAmmoText()
