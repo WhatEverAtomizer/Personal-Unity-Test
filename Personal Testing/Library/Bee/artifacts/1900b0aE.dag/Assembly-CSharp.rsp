@@ -377,20 +377,7 @@
 "Assets/Boat/Floater.cs"
 "Assets/Boat/WaterManager.cs"
 "Assets/Boat/WaveManager.cs"
-"Assets/Car/PROMETEO - Car Controller/Scripts/CameraFollow.cs"
-"Assets/Car/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs"
-"Assets/Car/PROMETEO - Car Controller/Scripts/PrometeoTouchInput.cs"
-"Assets/CollisionTestForPlane.cs"
 "Assets/Controls.cs"
-"Assets/Gun/CameraController.cs"
-"Assets/Gun/GunController.cs"
-"Assets/Gun/TargetScript.cs"
-"Assets/Path/SplineTest.cs"
-"Assets/Plane_Heli/HeliController.cs"
-"Assets/Plane_Heli/PlaneCameraController.cs"
-"Assets/Plane_Heli/PlaneController.cs"
-"Assets/Plane_Heli/Rotator.cs"
-"Assets/Shaders/BlackAndWhite.cs"
 -langversion:9.0
 
 /deterministic
