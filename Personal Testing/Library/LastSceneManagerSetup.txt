@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Shaders/Shaders.unity
+- path: Assets/Plane_Heli/Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
