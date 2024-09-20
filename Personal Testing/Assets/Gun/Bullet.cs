@@ -23,10 +23,12 @@ public class Bullet : MonoBehaviour
         }
 
         // Apply force to the object hit if it has a Rigidbody
+        
         if (collision.rigidbody != null)
         {
             collision.rigidbody.AddForce(-collision.contacts[0].normal * impactForce, ForceMode.Impulse);
         }
+        
 
         // Instantiate the impact effect at the point of collision
         /*

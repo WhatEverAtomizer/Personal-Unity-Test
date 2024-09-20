@@ -10,16 +10,17 @@ public class GunController : MonoBehaviour
     public float reloadTime = 1f;
     private bool isReloading = false;
     public bool automatic = false;
+    private bool canShoot = true;
 
     [Space(20)]
     [Header("Shooting Attributes")]
-    public float damage = 10f;
-    public float range = 100f;
+    //public float damage = 10f;
+    //public float range = 100f;
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
     public GameObject bulletSpawn;
     public GameObject projectilePrefab; // Projectile prefab to fire
-    public float projectileSpeed = 20f; // Speed of the projectile
+    public float bulletSpeed = 20f; // Speed of the projectile
 
     [Space(20)]
     [Header("Animations")]
@@ -70,11 +71,15 @@ public class GunController : MonoBehaviour
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
+            //muzzleFlash.Play();
         }
 
-        if (automatic == false && Input.GetButtonDown("Fire1"))
+        if (automatic == false && Input.GetButtonDown("Fire1") && canShoot == true)
         {
             Shoot();
+            canShoot = false;
+            //muzzleFlash.Play();
+
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -105,19 +110,29 @@ public class GunController : MonoBehaviour
 
     void Shoot()
     {
+        Invoke("CanShootReset", 0.2f);
         if (currentAmmo <= 0)
             return;
 
         currentAmmo--;
         UpdateAmmoText();
 
-        //muzzleFlash.Play();
-        //gunAudioSource.PlayOneShot(shootClip);
+        
+        
+        muzzleFlash.Play();
 
-        // Spawn and shoot the projectile
+        gunAudioSource.PlayOneShot(shootClip);
+        
+
+        // Spawn and shoot the bullet
         GameObject projectile = Instantiate(projectilePrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
         Rigidbody rb = projectile.GetComponent<Rigidbody>();
-        rb.velocity = bulletSpawn.transform.forward * projectileSpeed;
+        rb.velocity = bulletSpawn.transform.forward * bulletSpeed;
+        
+    }
+    void CanShootReset()
+    {
+        canShoot = true;
     }
 
     void UpdateAmmoText()
