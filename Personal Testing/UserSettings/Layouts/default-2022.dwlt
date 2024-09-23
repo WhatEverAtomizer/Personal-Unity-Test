@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1032
   m_ShowMode: 0
-  m_Title: Console
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
@@ -146,8 +146,8 @@ MonoBehaviour:
     y: 0
     width: 584
     height: 708
-  m_MinSize: {x: 101, y: 123}
-  m_MaxSize: {x: 4001, y: 4023}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -172,8 +172,8 @@ MonoBehaviour:
     y: 0
     width: 599
     height: 708
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 123}
+  m_MaxSize: {x: 4001, y: 4023}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 132
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 131
+  controlID: 133
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 132
+  controlID: 134
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -373,8 +373,8 @@ MonoBehaviour:
     y: 0
     width: 866
     height: 643
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -399,8 +399,8 @@ MonoBehaviour:
     y: 0
     width: 1054
     height: 643
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -539,7 +539,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 40756
+  m_LastSelectedObjectID: -35378
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -577,9 +577,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 4a790000
       m_LastClickedID: 0
-      m_ExpandedIDs: 4edefeffb2e8feff
+      m_ExpandedIDs: b0e1ffffd8e1ffffeee1fffff0e1ffff86edffffd2f7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1093,9 +1093,9 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 589, y: 282}
+      snapOffset: {x: -276, y: -340}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: UnityEditor.SceneViewCameraOverlay
       index: 1
       layout: 4
@@ -1216,9 +1216,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.075884, y: 3.718265, z: -9.648939}
+    m_Target: {x: -1.0900002, y: 1.8300002, z: 9.1}
     speed: 2
-    m_Value: {x: -20.075884, y: 3.718265, z: -9.648939}
+    m_Value: {x: -1.0900002, y: 1.8300002, z: 9.1}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1264,17 +1264,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.524
   m_Rotation:
-    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Target: {x: -0.005230658, y: 0.7165695, z: 0.0053748707, w: 0.6974792}
     speed: 2
-    m_Value: {x: 0, y: 0.7071068, z: 0, w: 0.70710677}
+    m_Value: {x: -0.0052306447, y: 0.7165676, z: 0.0053748568, w: 0.69747734}
   m_Size:
-    m_Target: 29.240479
+    m_Target: 5.244285
     speed: 2
-    m_Value: 29.240479
+    m_Value: 5.244285
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1340,7 +1340,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Car/PROMETEO - Car Controller/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Car/PROMETEO - Car Controller/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
     Testing
@@ -1356,9 +1356,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d69b0000
-    m_LastClickedID: 39894
-    m_ExpandedIDs: 00000000d6990000d8990000da990000dc990000de990000e0990000e2990000e4990000e6990000629b0000ba9b000000ca9a3bffffff7f
+    m_SelectedIDs: 8a780000
+    m_LastClickedID: 30858
+    m_ExpandedIDs: 000000008478000086780000887800008a7800008c7800008e7800009078000092780000947800009e780000d8780000dc78000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1386,7 +1386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d6990000d8990000da990000dc990000de990000e0990000e2990000e4990000e6990000
+    m_ExpandedIDs: 000000008478000086780000887800008a7800008c7800008e780000907800009278000094780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
