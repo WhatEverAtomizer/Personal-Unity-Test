@@ -13,6 +13,13 @@ public class PlaneController : MonoBehaviour
     public float pitchResponsiveness = 10f;
     public float yawResponsiveness = 10f;
     [SerializeField] private Rotator proppelerRotation;
+
+    [Space(20)]
+    [Header("Wheels")]
+    [SerializeField] private WheelCollider frontLeft;
+    [SerializeField] private WheelCollider frontRight;
+    [SerializeField] private WheelCollider backWheel;
+
     [Space(20)]
     [Header("Info")]
     [SerializeField] private float throttle;
@@ -75,6 +82,10 @@ public class PlaneController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.AddForce(transform.forward * maxThrust * throttle);
+        //rb.AddForce(transform.up * maxThrust * throttle / 10);
+        frontLeft.rotationSpeed = throttle / 2;
+        backWheel.rotationSpeed = throttle / 2;
+        frontRight.rotationSpeed = throttle / 2;
         rb.AddTorque(transform.up * yaw * yawResponsiveness * 200);
         rb.AddTorque(transform.right * pitch * pitchResponsiveness * 200);
         rb.AddTorque(-transform.forward * roll * rollResponsiveness * 200);

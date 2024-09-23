@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,8 +12,10 @@ public class HeliController : MonoBehaviour
     [SerializeField] private float throttleAmt = 25f;
     [SerializeField] private float maxThrust = 5f;
     [SerializeField] private float rotorSpeedModifier = 10f;
-    [SerializeField] private Transform rotorsTransform;
+    //[SerializeField] private Transform rotorsTransform;
+    //[SerializeField] private Transform backRotorsTransform;
     [SerializeField] private Rotator proppelerRotation;
+    [SerializeField] private Rotator backProppelerRotation;
     [Space(20)]
     [Header("Info")]
     [SerializeField] private float throttle;
@@ -63,14 +66,18 @@ public class HeliController : MonoBehaviour
             throttle -= throttleAmt * throttleAmt;
         }
         throttle = Mathf.Clamp(throttle, 0f, maxThrust);
-        proppelerRotation.speed = throttle;
+        proppelerRotation.speed = throttle * 2;
+        backProppelerRotation.speed = throttle * 2;
+
     }
+
     private void FixedUpdate()
     {
         rigidBody.AddForce(transform.up * maxThrust * throttle);
         rigidBody.AddTorque(-transform.right * roll * rollResponsiveness * 200);
         rigidBody.AddTorque(-transform.forward * pitch * pitchResponsiveness * 200);
         rigidBody.AddTorque(transform.up * yaw * yawResponsiveness * 200);
+        Straighten();
     }
     private void HandleInputes()
     {
@@ -88,4 +95,50 @@ public class HeliController : MonoBehaviour
         }
         throttle = Mathf.Clamp(throttle, 0f, 100f);
     }
+
+    public void Straighten()
+    {
+        // Get the current rotation in Euler angles
+        Vector3 currentRotation = gameObject.transform.rotation.eulerAngles;
+
+        // Ensure the rotation is within the range -180 to 180 for easier calculations
+        currentRotation.x = NormalizeAngle(currentRotation.x);
+        currentRotation.z = NormalizeAngle(currentRotation.z);
+
+        // Calculate step size, which decreases as the rotation gets closer to 0
+        float xStep = Mathf.Abs(currentRotation.x) * 0.01f; // 5% of the current rotation
+        float zStep = Mathf.Abs(currentRotation.z) * 0.01f;
+
+        // Adjust X-axis rotation towards 0
+        if (currentRotation.x > 0)
+        {
+            currentRotation.x -= xStep;
+        }
+        else if (currentRotation.x < 0)
+        {
+            currentRotation.x += xStep;
+        }
+
+        // Adjust Z-axis rotation towards 0
+        if (currentRotation.z > 0)
+        {
+            currentRotation.z -= zStep;
+        }
+        else if (currentRotation.z < 0)
+        {
+            currentRotation.z += zStep;
+        }
+
+        // Apply the new rotation back to the object
+        gameObject.transform.rotation = Quaternion.Euler(currentRotation);
+    }
+
+    // Helper function to normalize the angle between -180 and 180
+    private float NormalizeAngle(float angle)
+    {
+        angle = angle % 360;
+        if (angle > 180) angle -= 360;
+        return angle;
+    }
+
 }
