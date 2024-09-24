@@ -2,50 +2,14 @@
     "name": "Controls",
     "maps": [
         {
-            "name": "PlaneControls",
-            "id": "20eaeef6-9645-462d-86f3-91c26de40d02",
+            "name": "Move",
+            "id": "7aef1c16-727e-4f60-8354-59cbcf8a67a9",
             "actions": [
                 {
-                    "name": "Roll",
+                    "name": "New action",
                     "type": "Value",
-                    "id": "1435d859-4421-4e66-b334-a8d6d1755690",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Pitch",
-                    "type": "Value",
-                    "id": "6a79dda6-7d95-4735-a1f7-6e9efc4902ee",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Yaw",
-                    "type": "Value",
-                    "id": "d0a8b769-6df4-448d-9c38-80f8a75f2474",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "ThrottleUp",
-                    "type": "Value",
-                    "id": "846af34e-dded-4c3a-91a6-1ca6175449b0",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "ThrottleDown",
-                    "type": "Value",
-                    "id": "c0994c6a-3730-43a0-94f6-f981a4082ac7",
-                    "expectedControlType": "",
+                    "id": "2ba7a8f8-9ccf-43d6-9b92-81c01bbe7444",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -53,125 +17,81 @@
             ],
             "bindings": [
                 {
-                    "name": "Roll",
-                    "id": "e52cb588-c68d-4f29-b6fd-0512195faa19",
-                    "path": "1DAxis",
+                    "name": "Movement",
+                    "id": "354a9960-bffa-449a-b873-52e3de86879f",
+                    "path": "3DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Roll",
+                    "action": "New action",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
-                    "id": "a9074bdb-3024-4cf6-9077-c3432167ebe6",
-                    "path": "<Keyboard>/numpad4",
+                    "name": "up",
+                    "id": "9f3cf950-8573-4c4c-9315-5f1df81ff134",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Roll",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
-                    "id": "178ebe7d-8945-4c71-ae94-2eab3691dead",
-                    "path": "<Keyboard>/numpad6",
+                    "name": "down",
+                    "id": "50649fba-7eae-45c9-acb4-3b20ce4df44d",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Roll",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Pitch",
-                    "id": "48d1ba1a-e969-4016-bdba-37129338ab20",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pitch",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "c360b613-41de-42d4-b892-26616b252b48",
-                    "path": "<Keyboard>/numpad5",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pitch",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "f5d8d45c-a1af-4b75-96fe-1b9e1b68c391",
-                    "path": "<Keyboard>/numpad8",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pitch",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Yaw",
-                    "id": "cae97d18-45b2-4b88-9e18-e2224ad36c4b",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Yaw",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "1a4408ad-df7c-40a8-b231-c62ef2ec2c6f",
+                    "name": "left",
+                    "id": "4000d221-5a2d-4c73-adb8-b0bf78a12747",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Yaw",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
-                    "id": "18b5c3a0-792e-4bc2-baf0-e4d2f8c25d7d",
+                    "name": "right",
+                    "id": "912bb337-3d45-4b78-8900-c14ddc1314d6",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Yaw",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "0b812dad-4023-425e-b694-5a5f3b181000",
+                    "name": "forward",
+                    "id": "ce7e8bc0-50a4-43b8-ab91-818fa845ca90",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ThrottleUp",
+                    "action": "New action",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "73094803-d04e-4775-8349-2d821500a7e7",
+                    "name": "backward",
+                    "id": "514acc85-9109-42f5-b3fb-369c6219ac43",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ThrottleDown",
+                    "action": "New action",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 }
             ]
         }
