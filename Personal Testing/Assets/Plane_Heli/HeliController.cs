@@ -27,6 +27,11 @@ public class HeliController : MonoBehaviour
     private bool throttleDown;
     private Rigidbody rigidBody;
     private Controls controls;
+
+    private void Start()
+    {
+        InvokeRepeating("ThrottleDecrease", 1, 0.05f);
+    }
     private void Awake()
     {
         rigidBody = GetComponent<Rigidbody>();
@@ -66,9 +71,12 @@ public class HeliController : MonoBehaviour
             throttle -= throttleAmt * throttleAmt;
         }
         throttle = Mathf.Clamp(throttle, 0f, maxThrust);
-        proppelerRotation.speed = throttle * 2;
-        backProppelerRotation.speed = throttle * 2;
 
+        if (throttle < proppelerRotation.maxSpeed)
+        {
+            proppelerRotation.speed = throttle * 2;
+            backProppelerRotation.speed = throttle * 2;
+        }
     }
 
     private void FixedUpdate()
@@ -140,5 +148,11 @@ public class HeliController : MonoBehaviour
         if (angle > 180) angle -= 360;
         return angle;
     }
-
+    private void ThrottleDecrease()
+    {
+        if (!throttleUp && !throttleDown)
+        {
+            throttle -= throttleAmt;
+        }
+    }
 }

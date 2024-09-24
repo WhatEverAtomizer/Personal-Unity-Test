@@ -32,6 +32,10 @@ public class PlaneController : MonoBehaviour
     private Controls controls;
     Rigidbody rb;
 
+    private void Start()
+    {
+        InvokeRepeating("ThrottleDecrease", 1, 0.05f);
+    }
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -74,10 +78,16 @@ public class PlaneController : MonoBehaviour
         }
         if (throttleDown)
         {
-            throttle -= throttleIncrement * throttleIncrement;
+            throttle -= throttleIncrement * throttleIncrement * 2;
         }
+
         throttle = Mathf.Clamp(throttle, 0f, maxThrust);
-        proppelerRotation.speed = throttle;
+
+        if(throttle < proppelerRotation.maxSpeed)
+        {
+            proppelerRotation.speed = throttle;
+        }
+
     }
     private void FixedUpdate()
     {
@@ -89,5 +99,13 @@ public class PlaneController : MonoBehaviour
         rb.AddTorque(transform.up * yaw * yawResponsiveness * 200);
         rb.AddTorque(transform.right * pitch * pitchResponsiveness * 200);
         rb.AddTorque(-transform.forward * roll * rollResponsiveness * 200);
+    }
+
+    private void ThrottleDecrease()
+    {
+        if (!throttleUp && !throttleDown)
+        {
+            throttle -= throttleIncrement;
+        }
     }
 }
