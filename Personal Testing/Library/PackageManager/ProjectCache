@@ -1,33 +1,37 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/eugen/Documents/GitHub/Personal-Unity-Test/Personal Testing/Packages/manifest.json
+    m_FilePath: C:/Users/ecallegari-l2023/Documents/GitHub/Personal-Unity-Test/Personal
+      Testing/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638599392129422143
-    m_Hash: 4014659051
+      ticks: 638633695975663744
+    m_Hash: 2473251022
   m_LockFileStatus:
-    m_FilePath: C:/Users/eugen/Documents/GitHub/Personal-Unity-Test/Personal Testing/Packages/packages-lock.json
+    m_FilePath: C:/Users/ecallegari-l2023/Documents/GitHub/Personal-Unity-Test/Personal
+      Testing/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638599392129472325
-    m_Hash: 3639862080
+      ticks: 638633696347603465
+    m_Hash: 1202890661
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/eugen/Documents/GitHub/Personal-Unity-Test/Personal Testing/Packages
-m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
+m_ProjectPath: C:/Users/ecallegari-l2023/Documents/GitHub/Personal-Unity-Test/Personal
+  Testing/Packages
+m_EditorVersion: 2022.3.35f1 (011206c7a712)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
   version: 2.3.1
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.collab-proxy@2.3.1
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.collab-proxy@2.3.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -117,18 +121,15 @@ m_ResolvedPackages:
     - 2.3.1
     - 2.4.3
     - 2.4.4
+    - 2.5.1
+    - 2.5.2
     compatible:
-    - 2.0.5
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
-    - 2.1.0
-    - 2.2.0
     - 2.3.1
     - 2.4.3
     - 2.4.4
-    recommended: 2.0.7
+    - 2.5.1
+    - 2.5.2
+    recommended: 2.3.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -166,19 +167,21 @@ m_ResolvedPackages:
     revision: 613362ccb4468f55ee42e0a35809fb9a61f3f8f1
     path: 
   unityLifecycle:
-    version: 2.0.5
+    version: 2.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -218,7 +221,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.18
+    version: 2.0.22
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -228,7 +231,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.24
+    version: 3.0.28
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -236,7 +239,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.4
+    version: 1.2.5
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -266,12 +269,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.inputsystem@1.6.3
+  fingerprint: 
+- packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 1
-  version: 1.6.3
+  version: 1.7.0
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.inputsystem@1.6.3
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.inputsystem@1.7.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -335,9 +340,9 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.0
     - 1.10.0
+    - 1.11.0
+    - 1.11.1
     compatible:
-    - 1.6.1
-    - 1.6.3
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
@@ -346,7 +351,9 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.0
     - 1.10.0
-    recommended: 1.6.3
+    - 1.11.0
+    - 1.11.1
+    recommended: 1.7.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -379,28 +386,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638251794420000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
+  datePublishedTicks: 638277060810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 0d0891efc00ce912af6f03974eac0b8afd20a8ac
+    revision: e29989176f3a8473ba30854e4bfae953083eba28
     path: 
   unityLifecycle:
-    version: 1.6.1
+    version: 1.7.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.shadergraph@14.0.8
+  fingerprint: 
+- packageId: com.unity.shadergraph@14.0.11
   testable: 0
   isDirectDependency: 1
-  version: 14.0.8
+  version: 14.0.11
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.shadergraph@14.0.8
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.shadergraph@14.0.11
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -516,19 +525,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.8
+    - 14.0.11
     compatible:
-    - 14.0.8
-    recommended: 14.0.8
+    - 14.0.11
+    recommended: 14.0.11
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.11
   - name: com.unity.searcher
     version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.11
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -563,19 +572,21 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.8
+    version: 14.0.11
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.splines@2.3.0
+  fingerprint: 
+- packageId: com.unity.splines@2.6.1
   testable: 0
   isDirectDependency: 1
-  version: 2.3.0
+  version: 2.6.1
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.splines@2.3.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.splines@2.6.1
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -611,32 +622,27 @@ m_ResolvedPackages:
     - 2.6.0
     - 2.6.1
     compatible:
-    - 2.3.0
-    - 2.4.0
-    - 2.5.1
-    - 2.5.2
-    - 2.6.0
     - 2.6.1
-    recommended: 2.3.0
+    recommended: 2.6.1
     deprecated: []
   dependencies:
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  - name: com.unity.mathematics
-    version: 1.2.1
   - name: com.unity.ugui
     version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.settings-manager
-    version: 2.0.1
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.2.1
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.settings-manager
+    version: 2.0.1
   keywords:
   - spline
   - curve
@@ -651,28 +657,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638212886420000000
+  datePublishedTicks: 638522292040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: e55ebd39cb1707c42b1744076028d133dd92e54e
+    revision: f77ddc46ebeef1a8dca1264827b93dbec50d3772
     path: 
   unityLifecycle:
-    version: 2.3.0
+    version: 2.6.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -862,12 +870,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.4
+  fingerprint: 
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.4
+  version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -876,7 +886,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -970,8 +980,6 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     compatible:
-    - 1.7.4
-    - 1.7.5
     - 1.7.6
     - 1.8.0
     - 1.8.1
@@ -984,18 +992,18 @@ m_ResolvedPackages:
     recommended: 1.7.6
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1017,28 +1025,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638143790870000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.7.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9
   testable: 0
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -1128,12 +1138,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1200,12 +1212,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.8.0
+  fingerprint: 
+- packageId: com.unity.visualscripting@1.9.4
   testable: 0
   isDirectDependency: 1
-  version: 1.8.0
+  version: 1.9.4
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.visualscripting@1.9.4
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1253,12 +1267,8 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     compatible:
-    - 1.8.0
-    - 1.9.0
-    - 1.9.1
-    - 1.9.2
     - 1.9.4
-    recommended: 1.8.0
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1286,28 +1296,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638060044680000000
+  datePublishedTicks: 638488567680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
+    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
     path: 
   unityLifecycle:
-    version: 1.8.0
+    version: 1.9.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1357,12 +1369,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1411,12 +1425,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1466,12 +1482,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1521,12 +1539,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1576,12 +1596,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1635,12 +1657,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1698,12 +1722,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1754,12 +1780,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1809,12 +1837,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1864,12 +1894,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1919,12 +1951,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1974,12 +2008,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2029,12 +2065,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2088,12 +2126,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2143,12 +2183,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2206,12 +2248,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2264,12 +2308,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2319,12 +2365,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2386,12 +2434,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2441,12 +2491,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2504,12 +2556,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2559,12 +2613,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2622,12 +2678,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2685,12 +2743,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2748,12 +2808,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2827,12 +2889,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2886,12 +2950,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2953,12 +3019,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3022,12 +3090,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3077,12 +3147,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3144,12 +3216,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3203,12 +3277,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.sysroot@2.0.10
   testable: 0
   isDirectDependency: 0
   version: 2.0.10
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.sysroot@2.0.10
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.sysroot@2.0.10
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3284,12 +3360,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.sysroot.linux-x86_64@2.0.9
   testable: 0
   isDirectDependency: 0
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.9
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.9
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3366,74 +3444,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.settings-manager@2.0.1
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -3504,12 +3522,78 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.core@14.0.8
+  fingerprint: 
+- packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
-  version: 14.0.8
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.core@14.0.11
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.11
   source: 2
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.render-pipelines.core@14.0.8
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.render-pipelines.core@14.0.11
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3628,10 +3712,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.8
+    - 14.0.11
     compatible:
-    - 14.0.8
-    recommended: 14.0.8
+    - 14.0.11
+    recommended: 14.0.11
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -3675,19 +3759,21 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.8
+    version: 14.0.11
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.searcher@4.9.2
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -3696,13 +3782,28 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -3723,7 +3824,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3739,12 +3840,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+  fingerprint: 
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
-  version: 2.0.18
+  version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3753,7 +3856,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -3786,9 +3889,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.18
-    - 2.0.20
-    - 2.0.21
     - 2.0.22
     recommended: 2.0.22
     deprecated: []
@@ -3815,28 +3915,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+  fingerprint: 
+- packageId: com.unity.ide.rider@3.0.28
   testable: 0
   isDirectDependency: 0
-  version: 3.0.24
+  version: 3.0.28
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.ide.rider@3.0.28
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3897,10 +3999,6 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     compatible:
-    - 3.0.24
-    - 3.0.25
-    - 3.0.26
-    - 3.0.27
     - 3.0.28
     - 3.0.31
     recommended: 3.0.31
@@ -3922,28 +4020,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638447139880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
     path: 
   unityLifecycle:
-    version: 3.0.24
+    version: 3.0.28
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -4006,12 +4106,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4071,12 +4173,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4142,12 +4246,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4281,12 +4387,14 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.4
+  fingerprint: 
+- packageId: com.unity.testtools.codecoverage@1.2.5
   testable: 0
   isDirectDependency: 0
-  version: 1.2.4
+  version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4295,7 +4403,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4337,7 +4445,6 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     compatible:
-    - 1.2.4
     - 1.2.5
     - 1.2.6
     recommended: 1.2.6
@@ -4373,28 +4480,30 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638212235100000000
+  datePublishedTicks: 638386640140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
+    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 1.2.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\eugen\Documents\GitHub\Personal-Unity-Test\Personal Testing\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\ecallegari-l2023\Documents\GitHub\Personal-Unity-Test\Personal
+    Testing\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4460,3 +4569,5 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
+m_BuiltInPackagesHash: a29cfa943ce69a07b2393e4a2cd124567013a253
